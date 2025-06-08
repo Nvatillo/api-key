@@ -17,3 +17,9 @@ Una API Key es una cadena única que identifica a un cliente o aplicación que i
 
 ### 🔐 Header necesario
 
+- X-API-KEY: 123456
+
+#### CURL
+
+```json 
+curl -H "X-API-KEY: 123456" http://localhost:8080/hello
